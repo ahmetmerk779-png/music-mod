@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "musicmod",
+  "version": "1.0.0",
+  "name": "Premium Music Player",
+  "description": "Premium music player with equalizer for PojavLauncher",
+  "authors": [ "Ahmet" ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/musicmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.ExampleModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "~1.20.1",
+    "fabric-api": "*"
+  }
+}
